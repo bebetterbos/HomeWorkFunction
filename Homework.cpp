@@ -2,7 +2,8 @@
 #include <time.h>
 using namespace std;
 int checkNum(int,int);
-int main() {
+int main() 
+{
     int A,round=0;
     srand (time(NULL));
     int random = rand()% 10 + 1;
